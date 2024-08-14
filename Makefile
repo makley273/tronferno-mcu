@@ -1,6 +1,6 @@
 .PHONY: clean all test rebuild http_data print-help
 
-flavors = esp32-release esp32-debug host-test
+flavors = esp32-release esp32-debug host-test esp32s3
 
 flavor ?= esp32-release
 
